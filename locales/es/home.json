@@ -1,0 +1,79 @@
+{
+	"index": {
+		"title": "hola mundo"
+	},
+	"home": {
+		"title": "Lorem ipsum dolor",
+		"subtitle": "Lorem ipsum dolor",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt. Aliquam imperdiet enim eu justo pulvinar, vel iaculis ex commodo.",
+		"about": {
+			"title": "Lorem ipsum dolor",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt. Aliquam imperdiet enim eu justo pulvinar, vel iaculis ex commodo."
+		},
+		"members": {
+			"title": "Lorem ipsum dolor",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt. Aliquam imperdiet enim eu justo pulvinar, vel iaculis ex commodo.",
+			"button": "Lorem ipsum dolor"
+		},
+		"aboutItems": {
+			"title1": "Lorem ipsum dolo",
+			"description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt.",
+			"title2": "Lorem ipsum dolo",
+			"description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt.",
+			"title3": "Lorem ipsum dolo",
+			"description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt.",
+			"title4": "Lorem ipsum dolo",
+			"description4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt.",
+			"title5": "Lorem ipsum dolo",
+			"description5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna. Aliquam diam tellus, efficitur ut diam lobortis, dignissim cursus nibh. Praesent ut venenatis diam, ut sagittis est. Nunc et vestibulum lectus, vitae tempus justo. Praesent ultrices neque vel purus faucibus, ut cursus ipsum tincidunt."
+		}
+	},
+	"benefits": {
+		"title": "Lorem ipsum ",
+		"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna.",
+		"memberLevels": {
+			"title": "Lorem ipsum ",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur diam purus, laoreet nec lectus pulvinar, ultricies volutpat magna."
+		},
+		"listBenefits": {
+			"description1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description3": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description4": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description13": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description14": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description15": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description16": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description17": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description18": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description19": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description20": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description21": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description22": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description23": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description24": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description25": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description26": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description27": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description28": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description29": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description30": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description31": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description32": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description33": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description34": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description35": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description36": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description37": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"description38": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+		}
+	}
+}

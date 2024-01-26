@@ -1,0 +1,13 @@
+td,
+th {
+  border-width: 4px;
+  border-color: var(--color-exotic-ligth);
+}
+
+.container-iframe {
+  width: 100%;
+}
+
+.container-iframe iframe {
+  width: 100%;
+}

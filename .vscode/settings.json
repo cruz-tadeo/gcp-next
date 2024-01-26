@@ -1,0 +1,14 @@
+{
+	"cSpell.words": [
+		"chartjs",
+		"overwater",
+		"photoswipe",
+		"popperjs",
+		"reduxjs",
+		"swiper"
+	],
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": ["source.fixAll.eslint"],
+	"eslint.validate": ["typescript"],
+	"typescript.tsdk": "node_modules/typescript/lib"
+}

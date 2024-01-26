@@ -1,0 +1,81 @@
+{
+	"index": {
+		"title": "Hello world!"
+	},
+	"home": {
+		"title": "THE BEST EXPERIENCE",
+		"subtitle": "FOR OUR PARTNERS",
+		"description": "Accompanying us, you have a trip full of experiences. With Chisfis, booking accommodation, resort villas, hotels",
+		"about": {
+			"title": "About the club",
+			"description": "The last thing you should feel on vacation is limited. We\n                  designed Exotic Travelers to put you in charge. Pick from our\n                  exclusive portfolio of resorts and villas in the most coveted\n                  destinations. Your membership ensures luxury stays and entire\n                  treatment. Whether for three days or a week, your getaway is\n                  on your terms. Enjoy members-only advantages like discounts,\n                  plus vacation exchanges. Your possibilities are boundless."
+		},
+		"members": {
+			"title": "Members levels",
+			"description": " Our membership tiers offer unparalleled amenities, surpassing\n                  regular all-inclusive offerings. Elevate your experience with\n                  our VIP Concierge Service, aiding in vacation planning, resort\n                  booking, and exchanges through esteemed travel networks. Our\n                  continuous efforts find optimal airfare rates and unique\n                  excursions. With Exotic Travelers, a single call can transport\n                  you globally.",
+			"button": "Learn More"
+		},
+		"aboutItems": {
+			"title1": "Special Discounted Rates",
+			"description1": "Stay in a Royal Suite or any other Presidential category in our present and future hotels and receive up to 50% off published rack rates, guaranteed!.\n   </br>  Check in the day you wish, stay as long as you like and use as many rooms as you require.",
+			"title2": "Worldwide Resorts",
+			"description2": "Imagine a world where you can experience the privilege of global travel like never before, all while reveling in the lap of luxury and the finest services.\n    </br></br> This isn’t just a vacation; it’s an exclusive adventure you can enjoy with your friends and family, forging memories that will last a lifetime.",
+			"title3": "Travel Agency",
+			"description3": "Exotic Travelers is an elite travel club that offers you the keys to a world of unforgettable experiences. Becoming a member will unlock a treasure trove of benefits, from personalized trip planning to cost savings and exceptional service.\n     </br></br> Let us take care of the logistics while you focus on what truly matters: exploring the world, one extraordinary journey at a time.",
+			"title4": "Butler Service",
+			"description4": "Your butler is dedicated to providing unparalleled service, catering to your every need and desire.\n    </br></br> Whether mixing up your preferred beverage with the utmost precision or orchestrating a flawless in-suite dining experience carefully curated by one of our esteemed Executive Chefs, your butler is here to ensure that your stay at the hotel is nothing short of exceptional.\n    </br>With a keen attention to detail and a commitment to excellence, they are your concierge, ready to make your stay memorable.",
+			"title5": "Additional Discounts",
+			"description5": "Your butler is dedicated to providing unparalleled service, catering to your every need and desire.\n    </br></br> Whether mixing up your preferred beverage with the utmost precision or orchestrating a flawless in-suite dining experience carefully curated by one of our esteemed Executive Chefs, your butler is here to ensure that your stay at the hotel is nothing short of exceptional.\n    </br>With a keen attention to detail and a commitment to excellence, they are your concierge, ready to make your stay memorable."
+		}
+	},
+	"benefits": {
+		"title": "MEMBERS BENEFITS",
+		"subtitle": "FOR OUR PARTNERS",
+		"description": "Enjoy the privilege of travel around the world and destinations with comfort, luxury & services that can be extended to your friends and family.",
+		"memberLevels": {
+			"title": "Member Levels",
+			"subtitle": "FOR OUR PARTNERS",
+			"description": "Our membership tiers offer unparalleled amenities, surpassing\n                  regular all-inclusive offerings. Elevate your experience with\n                  our VIP Concierge Service, aiding in vacation planning, resort\n                  booking, and exchanges through esteemed travel networks. Our\n                  continuous efforts find optimal airfare rates and unique\n                  excursions. With Exotic Travelers, a single call can transport\n                  you globally."
+		},
+		"listBenefits": {
+			"description1": "Private round trip airport transfer (minimum stay of 7 nights)",
+			"description2": "Private limousine round trip airport transfer (minimum stay of 4 nights)",
+			"description3": "Butler service assistance",
+			"description4": "Private butler service",
+			"description5": "Cold bottle of champagne waiting in your room upon arrival",
+			"description6": "Cold bottle of sparkling wine waiting in your room upon arrival",
+			"description7": "In-suite “Connoisseur Cabinet” with premium liquor",
+			"description8": "In-suite premium bar",
+			"description9": "In- suite welcome amenity upon arrival",
+			"description10": "Standard toiletry amenities",
+			"description11": "Premium toiletry amenities",
+			"description12": "Premium pillow menu",
+			"description13": "Premium aromatherapy menu",
+			"description14": "Nightly turndown service",
+			"description15": "24-hour room service with premium menu",
+			"description16": "Candlelight dinner for two (2) on the beach (minimum stay of 7 nights)",
+			"description17": "Candlelight dinner for two (2) on the beach (minimum stay of 4 nights)",
+			"description18": "In-suite thematic prepared by the chef (minimum stay of 4 nights)",
+			"description19": "Gala Dinner***",
+			"description20": "Day / Night pass (special fee)***",
+			"description21": "Day / Night pass (included)***",
+			"description22": "Full access to all members-only events***",
+			"description23": "Snorkeling gear available upon request with your butler",
+			"description24": "In-suite snorkeling gear",
+			"description25": "Late check-out free of charge (subject to availability)",
+			"description26": "Unpacking service upon request",
+			"description27": "Hydrothermal journey",
+			"description28": "Up to 20% OFF (gift shop/ Spa / Hotel services)",
+			"description29": "1 (One) relaxing back massage (25 minutes) per adult (minimum stay of 4 nights)",
+			"description30": "2 (Two) back relaxing massages (50 mins) per adult (minimum stay of 4 nights)",
+			"description31": "2 (Two) in- house tours per guest (minimum stay of 4 nights)",
+			"description32": "1 (One) manicure per adult at resort spa (minimum stay of 7 nights)",
+			"description33": "1 (One) pedicure per adult at resort spa (minimum stay of 7 nights)",
+			"description34": "1 (One) signature spa treatment (120 mins) (minimum stay of 7 nights)",
+			"description35": "Laundry service (10 items per person, per stay)",
+			"description36": "Aromatherapy kit",
+			"description37": "Beach kit (ladies’ bag, men’s cap)",
+			"description38": "Welcome upon arrival by general manager and butler with private in-suite check-in (if ready on arrival)"
+		}
+	}
+}
