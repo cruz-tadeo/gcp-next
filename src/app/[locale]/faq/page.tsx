@@ -1,5 +1,5 @@
-import Hero3 from "@template/hero/hero-3";
-import Faq from "@template/faq/Faq";
+import Hero3 from "../../../core/template/hero/hero-3";
+import Faq from "../../../core/template/faq/Faq";
 export default function page() {
 	const title: string = "GOT A QUESTION?";
 	const subtitle: string = "GET YOUR ANSWER";

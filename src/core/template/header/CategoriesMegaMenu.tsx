@@ -1,4 +1,4 @@
-import { categorieMegaMenuItems } from "@template/data/mainMenuData";
+import { categorieMegaMenuItems } from "../../../core/template/data/mainMenuData";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";

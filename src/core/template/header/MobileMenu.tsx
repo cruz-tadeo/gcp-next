@@ -5,12 +5,12 @@ import Link from "next/link";
 import {
   categorieMegaMenuItems,
   resortsItems,
-} from "@template/data/mainMenuData";
+} from "../../../core/template/data/mainMenuData";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Menu, MenuItem, Sidebar, SubMenu } from "react-pro-sidebar";
 import { isActiveLink } from "../../utils/linkActiveChecker";
-import Social from "@template/common/social/Social";
+import Social from "../../../core/template/common/social/Social";
 import ContactInfo from "./ContactInfo";
 
 const MobileMenu = () => {

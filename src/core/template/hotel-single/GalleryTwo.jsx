@@ -4,12 +4,12 @@
 import React from 'react'
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { useState } from "react";
-import Overview from "@template/hotel-single/Overview";
-import PopularFacilities from "@template/hotel-single/PopularFacilities";
+import Overview from "../../../core/template//hotel-single/Overview";
+import PopularFacilities from "../../../core/template//hotel-single/PopularFacilities";
 import ModalVideo from "react-modal-video";
-import SidebarRight2 from "@template/hotel-single/SidebarRight2";
-import RatingBox from "@template/hotel-single/RatingBox";
-import PropertyHighlights2 from "@template/hotel-single/PropertyHighlights2";
+import SidebarRight2 from "../../../core/template//hotel-single/SidebarRight2";
+import RatingBox from "../../../core/template//hotel-single/RatingBox";
+import PropertyHighlights2 from "../../../core/template//hotel-single/PropertyHighlights2";
 
 export default function GalleryTwo({hotel}) {
     const [isOpen, setOpen] = useState(false);

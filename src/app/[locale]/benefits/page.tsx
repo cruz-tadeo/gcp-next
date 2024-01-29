@@ -1,14 +1,14 @@
 'use client'
-import Hero3 from "@template/hero/hero-3";
-import { CircleSVG } from "@component/shape/CircleSVG";
+import Hero3 from "../../../core/template/hero/hero-3";
+import { CircleSVG } from "../../../core/components//shape/CircleSVG";
 import { helveticaNeue } from "../../../core/utils/fonts";
 import { benefits } from "../../../repository/BenefitsInMemoryRepo";
 import "./benefits.css";
 import { useTranslations } from "next-intl";
 import {useCallback, useState} from "react";
 import {jewels} from "../../../repository/JewelsInMemoryRepository";
-import {ModalJewel} from "@component/members/ModalJewel";
-import {CardMembers} from "@component/members/CardMembers";
+import {ModalJewel} from "../../../core/components//members/ModalJewel";
+import {CardMembers} from "../../../core/components//members/CardMembers";
 
 export default function Page() {
   const [show, setShow] = useState(false);

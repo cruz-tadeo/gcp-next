@@ -1,4 +1,4 @@
-import Hero3 from "@template/hero/hero-3";
+import Hero3 from "../../../core/template/hero/hero-3";
 
 export default function Page() {
 	const title: string = "SAVINGS AND EXPERIENCE";

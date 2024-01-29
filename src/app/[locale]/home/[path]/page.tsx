@@ -1,9 +1,9 @@
 "use client";
-import Hero3 from "@template/hero/hero-3";
+import Hero3 from "../../../../core/template/hero/hero-3";
 import "./benefits.css";
 import { useTranslations } from "next-intl";
 import { useCallback, useState } from "react";
-import { ModalJewel } from "@component/members/ModalJewel";
+import { ModalJewel } from "../../../../core/components/members/ModalJewel";
 import { useParams } from "next/navigation";
 import * as CryptoJS from "crypto-js";
 

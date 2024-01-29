@@ -1,10 +1,9 @@
 
 import React, {FC} from "react";
 import { Button, Modal } from "react-bootstrap";
-
-import { ColoredLine } from "@component/shape/ColoredLine";
+import { ColoredLine } from "../shape/ColoredLine";
 import Image from "next/image";
-import { CircleSVG } from "@component/shape/CircleSVG";
+import { CircleSVG } from "../shape/CircleSVG";
 
 interface Props{
   show:boolean

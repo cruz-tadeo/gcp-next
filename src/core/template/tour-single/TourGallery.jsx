@@ -4,9 +4,9 @@
 
 import Image from "next/image";
 import React, { useState } from 'react';
-import SidebarRight from "@template/tour-single/SidebarRight";
-import Overview from "@template/tour-single/Overview";
-import TourSnapShot from "@template/tour-single/TourSnapShot";
+import SidebarRight from "../../../core/template/tour-single/SidebarRight";
+import Overview from "../../../core/template/tour-single/Overview";
+import TourSnapShot from "../../../core/template/tour-single/TourSnapShot";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";

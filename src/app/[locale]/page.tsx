@@ -1,7 +1,7 @@
-import Blog4 from "@template/blog/Blog4";
-import Hero3 from "@template/hero/hero-3";
+import Blog4 from "../../core/template/blog/Blog4";
+import Hero3 from "../../core/template/hero/hero-3";
 import { aboutClub } from "../../repository/BlogInMemoryRepo";
-import { CardMembers } from "@component/members/CardMembers";
+import { CardMembers } from "../../core/components/members/CardMembers";
 import { jewels } from "../../repository/JewelsInMemoryRepository";
 import { useTranslations } from "next-intl";
 

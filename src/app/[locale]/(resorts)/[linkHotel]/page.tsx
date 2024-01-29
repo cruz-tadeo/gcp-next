@@ -1,5 +1,5 @@
 "use client";
-import { ParallaxBanner } from "@template/banner/ParallaxBanner";
+import { ParallaxBanner } from "../../../../core/template/banner/ParallaxBanner";
 import { RedirectType, redirect, useParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Gallery, Item } from "react-photoswipe-gallery";

@@ -8,11 +8,11 @@ import "../../core/styles/index.scss";
 
 import "./globals.css";
 
-import Header3 from "@template/header/header-3";
-import JourneyForm from "@component/footer/form/JourneyForm";
+import Header3 from "../../core/template/header/header-3";
+import JourneyForm from "../../core/components/footer/form/JourneyForm";
 import localFont from "next/font/local";
-import { Footer } from "@component/footer/Footer";
-import { AosProvider } from "@component/AosProvider";
+import { Footer } from "../../core/components/footer/Footer";
+import { AosProvider } from "../../core/components/AosProvider";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 
 const helvetica = localFont({

@@ -1,4 +1,4 @@
-import { resortsItems } from "@template/data/mainMenuData";
+import { resortsItems } from "../../../core/template/data/mainMenuData";
 import {
   isActiveLink,
   isActiveParentChaild,
