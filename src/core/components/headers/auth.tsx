@@ -1,11 +1,7 @@
 "use client";
-
-import LanguageMegaMenu from "@template/header/LanguageMegaMenu";
-import MainMenu from "@template/header/MainMenu";
-import MobileMenu from "@template/header/MobileMenu";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../../app/providers/UserProvider";
-import { Link } from "src/navigation";
+import { Link } from "../../../navigation";
 import MainMenuAuth from "./auth/MainMenu";
 
 const HeaderAuth = () => {
