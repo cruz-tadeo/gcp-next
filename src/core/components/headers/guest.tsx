@@ -5,7 +5,7 @@ import MainMenu from "../../template/header/MainMenu";
 import MobileMenu from "../../template/header/MobileMenu";
 import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../../app/providers/UserProvider";
-import { Link } from "src/navigation";
+import { Link } from "../../../navigation";
 
 const HeaderGuest = () => {
   const [navbar, setNavbar] = useState(false);
