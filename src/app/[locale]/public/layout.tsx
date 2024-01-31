@@ -4,7 +4,7 @@ import "swiper/css/effect-cards";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import "../../core/styles/index.scss";
+import "../../../core/styles/index.scss";
 
 import "../public/globals.css";
 
