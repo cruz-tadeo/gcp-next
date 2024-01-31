@@ -13,8 +13,8 @@ import JourneyForm from "../../core/components/footer/form/JourneyForm";
 import localFont from "next/font/local";
 import { Footer } from "../../core/components/footer/Footer";
 import { NextIntlClientProvider, useMessages } from "next-intl";
-import { Providers } from "@component/Providers";
-import { Header } from "@component/Header";
+import { Providers } from "../../core/components/Providers";
+import { Header } from "../../core/components/Header";
 
 const helvetica = localFont({
   src: "../../../public/fonts/helvetica-light.ttf",
