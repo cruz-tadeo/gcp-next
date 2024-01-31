@@ -14,7 +14,7 @@ import localFont from "next/font/local";
 import { Footer } from "../../../core/components/footer/Footer";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { Providers } from "../../../core/components/Providers";
-import { Header } from "../../../core/components/Header";
+import Header1 from "../../../core/template/header/header-3";
 
 const helvetica = localFont({
   src: "../../../public/fonts/helvetica-light.ttf",
@@ -55,7 +55,7 @@ export default function RootLayout({
       <body className={helvetica.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>
-            <Header />
+            <Header1 />
             {children}
             <JourneyForm></JourneyForm>
             <Footer />

@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction, createContext, useState } from "react";
-import { IUser } from "src/core/common/interfaces/IUser";
+import { IUser } from "../../core/common/interfaces/IUser";
 interface IUserContext {
   isAuth: boolean;
   setAuth: Dispatch<SetStateAction<boolean>>;
