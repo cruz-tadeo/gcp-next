@@ -1,15 +1,15 @@
 "use client";
 
+import LanguageMegaMenu from "@template/header/LanguageMegaMenu";
+import MainMenu from "@template/header/MainMenu";
+import MobileMenu from "@template/header/MobileMenu";
 import { useContext, useEffect, useState } from "react";
-import MainMenu from "../MainMenu";
-import LanguageMegaMenu from "../LanguageMegaMenu";
-import MobileMenu from "../MobileMenu";
-import { Link } from "../../../../navigation";
 import { UserContext } from "src/app/providers/UserProvider";
+import { Link } from "src/navigation";
 
-const Header1 = () => {
+const HeaderGuest = () => {
   const [navbar, setNavbar] = useState(false);
-  const { coords } = useContext(UserContext);
+  const { isAuth } = useContext(UserContext);
 
   const changeBackground = () => {
     if (window.scrollY >= 10) {
@@ -17,18 +17,6 @@ const Header1 = () => {
     } else {
       setNavbar(false);
     }
-  };
-
-  const logout = () => {
-    fetch(
-      "https://grupolomas--lomasadmin.sandbox.my.site.com/exotictravelers/secur/logout.jsp"
-    ).then((res) => {
-      if (typeof window.location !== "undefined") {
-        window.location.href =
-          "https://grupolomas--lomasadmin.sandbox.my.site.com/exotictravelers/s";
-      }
-      console.log(res, "aceptado");
-    });
   };
 
   useEffect(() => {
@@ -68,23 +56,12 @@ const Header1 = () => {
               <div className="d-flex items-center">
                 {/* Start btn-group */}
                 <div className="d-flex items-center ml-20 mr-20 is-menu-opened-hide md:d-none">
-                  {coords.lat == 0 ? (
-                    <div>
-                      <p
-                        onClick={logout}
-                        className="button px-30 fw-400 text-14 --border-exotic bg-white h-50 text-exotic -exotic"
-                      >
-                        Logout
-                      </p>
-                    </div>
-                  ) : (
-                    <Link
-                      href="https://grupolomas--lomasadmin.sandbox.my.site.com/exotictravelers/s/login"
-                      className="button px-30 fw-400 text-14 --border-exotic bg-white h-50 text-exotic -exotic"
-                    >
-                      Login
-                    </Link>
-                  )}
+                  <Link
+                    href="https://grupolomas--lomasadmin.sandbox.my.site.com/exotictravelers/s/login"
+                    className="button px-30 fw-400 text-14 --border-exotic bg-white h-50 text-exotic -exotic"
+                  >
+                    Login
+                  </Link>
                 </div>
                 <div className="row x-gap-20 items-center xxl:d-none">
                   <div className="col-auto">
@@ -146,4 +123,4 @@ const Header1 = () => {
   );
 };
 
-export default Header1;
+export default HeaderGuest;

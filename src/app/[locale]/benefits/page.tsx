@@ -1,14 +1,14 @@
-'use client'
+"use client";
 import Hero3 from "../../../core/template/hero/hero-3";
 import { CircleSVG } from "../../../core/components//shape/CircleSVG";
 import { helveticaNeue } from "../../../core/utils/fonts";
 import { benefits } from "../../../repository/BenefitsInMemoryRepo";
 import "./benefits.css";
 import { useTranslations } from "next-intl";
-import {useCallback, useState} from "react";
-import {jewels} from "../../../repository/JewelsInMemoryRepository";
-import {ModalJewel} from "../../../core/components//members/ModalJewel";
-import {CardMembers} from "../../../core/components//members/CardMembers";
+import { useCallback, useState } from "react";
+import { jewels } from "../../../repository/JewelsInMemoryRepository";
+import { ModalJewel } from "../../../core/components//members/ModalJewel";
+import { CardMembers } from "../../../core/components//members/CardMembers";
 
 export default function Page() {
   const [show, setShow] = useState(false);
@@ -18,7 +18,7 @@ export default function Page() {
     (
       existElement: boolean,
       isNone: boolean,
-      jewel: "sapphire" | "ruby" | "emerald" | "diamond" | "diamond-elite",
+      jewel: "sapphire" | "ruby" | "emerald" | "diamond" | "diamond-elite"
     ) => {
       if (existElement) {
         return `--color-${jewel}`;
@@ -28,7 +28,7 @@ export default function Page() {
       }
       return "--color-row-dark";
     },
-    [],
+    []
   );
   const t = useTranslations("benefits");
   return (
@@ -58,18 +58,18 @@ export default function Page() {
           </div>
           {/* End .row */}
           <div className="row y-gap-30 pt-40 px-5">
-            {jewels.map((item, index) =>
+            {jewels.map((item, index) => (
               <div
-                  className="col-lg-3 offset-lg-1 col-sm-4 offset-sm-0 p-3"
-                  key={index}
-                  data-aos="fade"
-                  data-aos-delay="100"
+                className="col-lg-3 offset-lg-1 col-sm-4 offset-sm-0 p-3"
+                key={index}
+                data-aos="fade"
+                data-aos-delay="100"
               >
                 <div className="border shadow py-20" onClick={handleShow}>
                   <CardMembers title={item.title} img={item.img} />
                 </div>
-              </div>)
-            }
+              </div>
+            ))}
           </div>
           {/* End .row */}
         </div>
@@ -83,7 +83,7 @@ export default function Page() {
         <div className="container">
           <div className="row justify-center text-center">
             <div className="overflow-scroll scroll-bar-1 pt-30">
-              <table className="table table-responsive align-middle">
+              <table className="table table-responsive">
                 <thead>
                   <tr>
                     <th className="py-50 pl-10 text-left fs-1 bg-exotic-ligth">
@@ -149,7 +149,7 @@ export default function Page() {
                           fill={getColorJewelFill(
                             !!benefit.sapphire,
                             index % 2 == 0,
-                            "sapphire",
+                            "sapphire"
                           )}
                           width={17}
                           height={17}
@@ -165,7 +165,7 @@ export default function Page() {
                           fill={getColorJewelFill(
                             !!benefit.ruby,
                             index % 2 == 0,
-                            "ruby",
+                            "ruby"
                           )}
                           width={17}
                           height={17}
@@ -180,7 +180,7 @@ export default function Page() {
                           fill={getColorJewelFill(
                             !!benefit.emerald,
                             index % 2 == 0,
-                            "emerald",
+                            "emerald"
                           )}
                           width={17}
                           height={17}
@@ -195,7 +195,7 @@ export default function Page() {
                           fill={getColorJewelFill(
                             !!benefit.diamond,
                             index % 2 == 0,
-                            "diamond",
+                            "diamond"
                           )}
                           width={17}
                           height={17}
@@ -210,7 +210,7 @@ export default function Page() {
                           fill={getColorJewelFill(
                             !!benefit.diamondElite,
                             index % 2 == 0,
-                            "diamond-elite",
+                            "diamond-elite"
                           )}
                           width={17}
                           height={17}

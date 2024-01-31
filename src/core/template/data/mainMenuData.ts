@@ -1,4 +1,3 @@
-
 export const resortsItems = [
   {
     name: "NICKELODEON RIVIERA MAYA",
@@ -35,7 +34,7 @@ export const resortsItems = [
   {
     name: "HIDDEN BEACH RESORT",
     routePath: "/home_9",
-  }
+  },
 ];
 export const blogItems = [
   {
@@ -673,5 +672,20 @@ export const categorieMobileItems = [
         ],
       },
     ],
+  },
+];
+
+export const optionsUser = [
+  {
+    name: "Descargar status",
+    routePath: "",
+  },
+  {
+    name: "Configurar Cuenta",
+    routePath: "",
+  },
+  {
+    name: "Logout",
+    routePath: "",
   },
 ];

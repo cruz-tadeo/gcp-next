@@ -12,8 +12,9 @@ import Header3 from "../../core/template/header/header-3";
 import JourneyForm from "../../core/components/footer/form/JourneyForm";
 import localFont from "next/font/local";
 import { Footer } from "../../core/components/footer/Footer";
-import { AosProvider } from "../../core/components/AosProvider";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import { Providers } from "@component/Providers";
+import { Header } from "@component/Header";
 
 const helvetica = localFont({
   src: "../../../public/fonts/helvetica-light.ttf",
@@ -53,12 +54,12 @@ export default function RootLayout({
       </head>
       <body className={helvetica.className}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <AosProvider>
-            <Header3 authenticated={authenticated} />
+          <Providers>
+            <Header />
             {children}
             <JourneyForm></JourneyForm>
             <Footer />
-          </AosProvider>
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

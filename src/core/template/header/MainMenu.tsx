@@ -6,12 +6,12 @@ import {
 
 import { useState } from "react";
 import { montserrat } from "../../utils/fonts";
-import { Link   } from "../../../navigation";
-import {useSelectedLayoutSegment} from "next/navigation";
+import { Link } from "../../../navigation";
+import { useSelectedLayoutSegment } from "next/navigation";
 
 const MainMenu = ({ style = "" }) => {
   const selectedLayoutSegment = useSelectedLayoutSegment();
-  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
+  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : "/";
 
   return (
     <nav className={`${montserrat.className} menu js-navList`}>

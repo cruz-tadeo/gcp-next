@@ -2,10 +2,10 @@
 import Hero3 from "../../../../core/template/hero/hero-3";
 import "./benefits.css";
 import { useTranslations } from "next-intl";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { ModalJewel } from "../../../../core/components/members/ModalJewel";
 import { useParams } from "next/navigation";
-import * as CryptoJS from "crypto-js";
+import { desencrypt, encrypt } from "src/core/utils";
 
 export default function Page() {
   const [show, setShow] = useState(false);
@@ -13,18 +13,21 @@ export default function Page() {
   const handleShow = () => setShow(true);
   const params = useParams();
   const { path } = params;
-  const desencrypt = (path: string) => {
-    try {
-      const dataUser = decodeURIComponent(path);
 
-      let bytes = CryptoJS.AES.decrypt(dataUser, "saleforceLomas");
-      const originalText = bytes.toString(CryptoJS.enc.Utf8);
+  useEffect(() => {
+    const userData = desencrypt(path.toString());
+    if (userData) {
+      const searchParams = new URLSearchParams(userData);
 
-      return originalText;
-    } catch (error) {
-      console.error("Error during decryption:", error);
+      const salesForceValues = {};
+      searchParams.forEach((value, key) => {
+        salesForceValues[key] = value;
+      });
+
+      sessionStorage.setItem("params", encrypt(salesForceValues));
     }
-  };
+  });
+
   const t = useTranslations("benefits");
   return (
     <>
@@ -40,8 +43,8 @@ export default function Page() {
             src={`https://exotic-dev.lomastravel.com/?${desencrypt(
               path.toString()
             )}`}
-            width={1500}
-            height={1200}
+            width="1500"
+            height="1220"
           ></iframe>
         </div>
       </section>
