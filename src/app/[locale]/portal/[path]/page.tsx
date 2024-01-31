@@ -2,13 +2,16 @@
 import Hero3 from "../../../../core/template/hero/hero-3";
 import "./benefits.css";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import { ModalJewel } from "../../../../core/components/members/ModalJewel";
 import { useParams } from "next/navigation";
 import { desencrypt, encrypt } from "../../../../core/utils";
+import { UserContext } from "../../../providers/UserProvider";
+import { getUser } from "../../../../core/services/getUser";
 
 export default function Page() {
   const [show, setShow] = useState(false);
+  const { isAuth, setAuth, setUser, user } = useContext(UserContext);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   const params = useParams();
@@ -16,27 +19,36 @@ export default function Page() {
 
   useEffect(() => {
     const userData = desencrypt(path.toString());
+    const salesForceValues: any = {};
     if (userData) {
       const searchParams = new URLSearchParams(userData);
 
-      const salesForceValues = {};
       searchParams.forEach((value, key) => {
         salesForceValues[key] = value;
       });
 
       sessionStorage.setItem("params", encrypt(salesForceValues));
     }
-  });
+
+    async function getData(pin: string) {
+      const user = await getUser(pin);
+
+      if (user) {
+        setUser(user);
+        setAuth(true);
+      }
+    }
+
+    if (userData) {
+      const pin = salesForceValues.pin ?? "";
+      getData(pin);
+    }
+  }, [isAuth]);
 
   const t = useTranslations("benefits");
   return (
     <>
       <ModalJewel handleClose={handleClose} show={show} />
-      <Hero3
-        title={t("title")}
-        description={t("description")}
-        img="/img/benefits/benefits-01.jpg"
-      />
       <section className="section-bg pb-40" data-aos="fade-up">
         <div className="container-iframe">
           <iframe

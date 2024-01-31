@@ -19,7 +19,14 @@ const HeaderAuth = () => {
         : "";
     const previousUrl = document.referrer;
 
-    console.log(previousUrl, "probando url anterior");
+    if (
+      !previousUrl.includes(
+        "https://grupolomas--lomasadmin.sandbox.my.site.com/"
+      )
+    ) {
+      window.location.href = "/";
+      return;
+    }
 
     async function getData(pin: string) {
       const user = await getUser(pin);

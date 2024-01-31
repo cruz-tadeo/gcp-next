@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../../../core/styles/index.scss";
-import "../public/globals.css";
+import "../../[locale]/(public)/globals.css";
 import localFont from "next/font/local";
 import { Footer } from "../../../core/components/footer/Footer";
 import { NextIntlClientProvider, useMessages } from "next-intl";

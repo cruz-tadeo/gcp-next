@@ -61,26 +61,3 @@ th {
   width: 95%;
   border-radius: 5px;
 }
-
-.text-privacy {
-  color: #0047b2;
-  font-weight: bold;
-  font-size: 22px;
-  margin: 7px 0px;
-}
-
-p {
-  color: black;
-  margin: 10px 0px;
-  line-height: 1.3em;
-}
-
-.text-container h6 {
-  color: black;
-}
-
-.text-container p {
-  color: black;
-  margin: 10px 0px;
-  line-height: 1.3em;
-}

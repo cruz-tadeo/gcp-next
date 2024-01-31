@@ -6,7 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../../../core/styles/index.scss";
 
-import "../public/globals.css";
+import "../../[locale]/(public)/globals.css";
 
 import JourneyForm from "../../../core/components/footer/form/JourneyForm";
 import localFont from "next/font/local";
