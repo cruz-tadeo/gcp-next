@@ -1,4 +1,4 @@
-import { IResortParams } from "../../../src/app/[locale]/(resorts)/resort-params";
+import { IResortParams } from "../../../src/app/[locale]/public/(resorts)/resort-params";
 
 const Nickelodeon: IResortParams = {
   banner: {
