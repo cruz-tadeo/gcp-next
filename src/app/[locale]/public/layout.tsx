@@ -6,9 +6,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "../../core/styles/index.scss";
 
-import "./globals.css";
+import "../public/globals.css";
 
-import Header3 from "../../../core/template/header/header-3";
 import JourneyForm from "../../../core/components/footer/form/JourneyForm";
 import localFont from "next/font/local";
 import { Footer } from "../../../core/components/footer/Footer";
@@ -17,7 +16,7 @@ import { Providers } from "../../../core/components/Providers";
 import Header1 from "../../../core/template/header/header-3";
 
 const helvetica = localFont({
-  src: "../../../public/fonts/helvetica-light.ttf",
+  src: "../../../../public/fonts/helvetica-light.ttf",
 });
 
 // export const metadata: Metadata = {

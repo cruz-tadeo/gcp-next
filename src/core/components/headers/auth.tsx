@@ -3,8 +3,8 @@ import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../../app/providers/UserProvider";
 import { Link } from "../../../navigation";
 import MainMenuAuth from "./auth/MainMenu";
-import { desencrypt } from "src/core/utils";
-import { getUser } from "src/core/services/getUser";
+import { desencrypt } from "../../../core/utils";
+import { getUser } from "../../../core/services/getUser";
 
 const HeaderAuth = () => {
   const [navbar, setNavbar] = useState(false);
