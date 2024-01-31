@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useCallback, useEffect, useState } from "react";
 import { ModalJewel } from "../../../../core/components/members/ModalJewel";
 import { useParams } from "next/navigation";
-import { desencrypt, encrypt } from "src/core/utils";
+import { desencrypt, encrypt } from "../../../../core/utils";
 
 export default function Page() {
   const [show, setShow] = useState(false);
