@@ -2,7 +2,7 @@
 
 const Liability = () => {
   return (
-    <>
+    <div data-aos="fade-up">
       <div>
         <h5 className="text-decoration-underline fw-italic">Liability</h5>
       </div>
@@ -50,7 +50,7 @@ const Liability = () => {
           terms and conditions set forth.
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

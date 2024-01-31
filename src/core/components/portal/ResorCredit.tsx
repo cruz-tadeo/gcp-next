@@ -2,7 +2,7 @@
 
 const resortCredit = () => {
   return (
-    <>
+    <div data-aos="fade-up">
       <div>
         <h5 className="text-decoration-underline fw-italic">Resort Credits</h5>
       </div>
@@ -17,7 +17,7 @@ const resortCredit = () => {
           party, reservation, nor redeemed for cash value.
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

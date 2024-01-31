@@ -2,7 +2,7 @@
 
 const reservationPolicy = () => {
   return (
-    <div>
+    <div data-aos="fade-up">
       <h5 className="text-decoration-underline fw-italic">
         Reservation, Deposit & Cancelation Policy
       </h5>

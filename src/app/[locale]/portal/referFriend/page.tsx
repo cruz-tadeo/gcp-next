@@ -16,11 +16,6 @@ export default function Page() {
   return (
     <>
       <ModalJewel handleClose={handleClose} show={show} />
-      <Hero3
-        title={t("title")}
-        description={t("description")}
-        img="/img/benefits/benefits-01.jpg"
-      />
       <section className="section-bg pb-40" data-aos="fade-up">
         <div className="container row mx-auto mt-15 mb-60">
           <div className="col-6">

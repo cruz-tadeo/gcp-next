@@ -2,7 +2,7 @@
 
 const visaPassport = () => {
   return (
-    <>
+    <div data-aos="fade-up">
       <div>
         <h5 className="text-decoration-underline fw-italic">
           Visa/Passport Requirements
@@ -18,7 +18,7 @@ const visaPassport = () => {
         and/or Foreign Port Taxes. We strongly recommend the purchase of travel
         insurance in the case of unforeseen circumstances.
       </p>
-    </>
+    </div>
   );
 };
 

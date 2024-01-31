@@ -16,7 +16,7 @@ const MainMenuAuth = ({ style = "" }) => {
       >
         <li
           className={`text-exotic-text ${
-            pathname.includes("/portal/referFriend") ? "current" : ""
+            pathname.includes("/referFriend") ? "current" : ""
           }`}
         >
           <Link href="/portal/referFriend" className="text-16">
@@ -34,20 +34,11 @@ const MainMenuAuth = ({ style = "" }) => {
         </li>
         <li
           className={`text-exotic-text ${
-            pathname.includes("/portal/policies") ? "current" : ""
+            pathname.includes("/policies") ? "current" : ""
           }`}
         >
-          <Link href="/benefits" className="text-16">
+          <Link href="/portal/policies" className="text-16">
             Reservation Policies
-          </Link>
-        </li>
-        <li
-          className={`text-exotic-text ${
-            pathname === "/benefits" ? "current" : ""
-          }`}
-        >
-          <Link href="/benefits" className="text-16">
-            Explorer Weeks
           </Link>
         </li>
         <li

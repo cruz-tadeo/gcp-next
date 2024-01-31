@@ -2,7 +2,7 @@
 
 const airfare = () => {
   return (
-    <>
+    <div data-aos="fade-up">
       <div>
         <h5 className="text-decoration-underline fw-italic">Airfare</h5>
       </div>
@@ -28,7 +28,7 @@ const airfare = () => {
         </li>
         <li className="text-dark my-1">Boarding will be in the last zone.</li>
       </ul>
-    </>
+    </div>
   );
 };
 

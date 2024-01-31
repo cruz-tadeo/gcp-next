@@ -3,11 +3,40 @@ import { useContext, useEffect, useState } from "react";
 import { UserContext } from "../../../app/providers/UserProvider";
 import { Link } from "../../../navigation";
 import MainMenuAuth from "./auth/MainMenu";
+import { desencrypt } from "src/core/utils";
+import { getUser } from "src/core/services/getUser";
 
 const HeaderAuth = () => {
   const [navbar, setNavbar] = useState(false);
-  const { isAuth, setAuth, user } = useContext(UserContext);
   const [show, setShow] = useState(false);
+
+  const { isAuth, setAuth, setUser, user } = useContext(UserContext);
+
+  useEffect(() => {
+    const params =
+      typeof sessionStorage !== "undefined"
+        ? sessionStorage.getItem("params") ?? ""
+        : "";
+    const previousUrl = document.referrer;
+
+    console.log(previousUrl, "probando url anterior");
+
+    async function getData(pin: string) {
+      const user = await getUser(pin);
+
+      if (user) {
+        setUser(user);
+        setAuth(true);
+      }
+    }
+
+    if (params !== "") {
+      const userData = JSON.parse(desencrypt(params));
+      if (userData) {
+        getData(userData.pin);
+      }
+    }
+  }, [isAuth]);
 
   const changeBackground = () => {
     if (window.scrollY >= 10) {

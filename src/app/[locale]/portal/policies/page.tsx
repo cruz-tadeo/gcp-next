@@ -9,6 +9,8 @@ import ResortCredit from "../../../../core/components/portal/ResorCredit";
 import Airfare from "../../../../core/components/portal/Airfare";
 import Passport from "../../../../core/components/portal/VisaPassport";
 import Liability from "../../../../core/components/portal/Liability";
+import VillaEsmeralda from "../../../../core/components/portal/VillaEsmeralda";
+import VillaMaroma from "../../../../core/components/portal/VillaMaroma";
 
 export default function Page() {
   const [show, setShow] = useState(false);
@@ -35,11 +37,6 @@ export default function Page() {
   return (
     <>
       <ModalJewel handleClose={handleClose} show={show} />
-      <Hero3
-        title={t("title")}
-        description={t("description")}
-        img="/img/benefits/benefits-01.jpg"
-      />
       <section className="section-bg pb-40 container" data-aos="fade-up">
         <div className="p-4 reservation-policies">
           <h6 className="text-center">RESERVATION, PAYMENT AND CANCELATION</h6>
@@ -98,6 +95,22 @@ export default function Page() {
           {filterOption === "liability" ? (
             <div className="col-12">
               <Liability></Liability>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {filterOption === "villa_esmeralda" ? (
+            <div className="col-12">
+              <VillaEsmeralda></VillaEsmeralda>
+            </div>
+          ) : (
+            ""
+          )}
+
+          {filterOption === "villa_maroma" ? (
+            <div className="col-12">
+              <VillaMaroma></VillaMaroma>
             </div>
           ) : (
             ""
