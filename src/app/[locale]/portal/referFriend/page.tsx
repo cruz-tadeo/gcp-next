@@ -2,10 +2,8 @@
 import Hero3 from "../../../../core/template/hero/hero-3";
 import "./referFriend.css";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { ModalJewel } from "../../../../core/components/members/ModalJewel";
-import { useParams } from "next/navigation";
-import { desencrypt, encrypt } from "src/core/utils";
 
 export default function Page() {
   const [show, setShow] = useState(false);

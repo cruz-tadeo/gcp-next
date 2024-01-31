@@ -2,12 +2,8 @@
 import Hero3 from "../../../../core/template/hero/hero-3";
 import "./policies.css";
 import { useTranslations } from "next-intl";
-import { useCallback, useEffect, useState } from "react";
+import { useState } from "react";
 import { ModalJewel } from "../../../../core/components/members/ModalJewel";
-import { useParams } from "next/navigation";
-import { desencrypt, encrypt } from "src/core/utils";
-import Image from "next/image";
-import Link from "next/link";
 import ReservationPolicy from "../../../../core/components/portal/ReservationPolicy";
 import ResortCredit from "../../../../core/components/portal/ResorCredit";
 import Airfare from "../../../../core/components/portal/Airfare";

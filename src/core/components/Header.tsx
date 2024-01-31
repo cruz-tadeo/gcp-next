@@ -1,7 +1,7 @@
 "use client";
 
 import { use, useContext, useEffect } from "react";
-import { UserContext } from "src/app/providers/UserProvider";
+import { UserContext } from "../../app/providers/UserProvider";
 import HeaderGuest from "./headers/guest";
 import HeaderAuth from "./headers/auth";
 import { desencrypt } from "../utils";
